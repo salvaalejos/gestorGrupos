@@ -188,10 +188,10 @@ public class ProyectoF {
         int agLink = Integer.parseInt(JOptionPane.showInputDialog("Deseas agregar tu propia ruta? \n1. Sí   2. No"));
         while(agLink != 1 && agLink != 2){
             JOptionPane.showMessageDialog(null, "Lo sentimos, esa no es una opción válida intente otra vez");
-            agLink = Integer.parseInt(JOptionPane.showInputDialog("Deseas agregar tu propia ruta? \n1. Sí   2. No"));
+            agLink = Integer.parseInt(JOptionPane.showInputDialog("Deseas agregar tu propia ruta? (Se recomienda SI hacerlo) \n1. Sí   2. No"));
         }
-        String archivo = "C:\\Users\\hfyh\\OneDrive\\Documentos\\Proyecto Final final\\poo.txt";
-        String archivoGrupos = "C:\\Users\\hfyh\\OneDrive\\Documentos\\Proyecto Final final\\grupos.txt";
+        String archivo = "C:\\Users\\Public\\poo.txt";
+        String archivoGrupos = "C:\\Users\\Public\\grupos.txt";
         if(agLink == 1){
             archivo = JOptionPane.showInputDialog("Ingrese una ruta: ");
             archivoGrupos=archivo+"\\grupos.txt";
