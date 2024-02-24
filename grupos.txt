@@ -1,0 +1,2 @@
+1|Quimica|Edith|07:00 - 08:00|F4
+2|Calculo|Cano|09:00 - 10:00|K9
